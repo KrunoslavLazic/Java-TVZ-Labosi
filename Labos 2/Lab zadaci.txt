@@ -1,0 +1,28 @@
+[I]
+1. Proširiti zadatak za pripremu na način da se klasa Student proglasi apstraktna. Nakon toga potrebo je
+kreirati klasu RedovanStudent koja nasljeđuje klasu Student. Nadalje, potrebno je kreirati klasu
+IzvanredanStudent koja ima još jednu dodatnu varijablu naziv tvrtke tipa String.
+2. Proširiti zadatak za pripremu da se omogući neograničen broj unosa studenata. Unos treba prestati
+kada korisnik ne unese prvi traženi podatak studenta. Za svakog studenta potrebno je napraviti
+upit jeli izvanredan ili redovan. Sve studente potrebno je pohranjivati u jednom polju.
+
+[II]
+1. Proširiti zadatak za pripremu na način da se kreira sučelje Srednjoskolska. U sučelju je potrebno kreirati
+default metodu "filtrirajIspitePoUceniku" po uzoru na metodu "filtrirajIspitePoStudentu".
+Druga metoda koju je potrebo kreirati je "odrediProsjekPoGodini" koja prima parametre liste ispita i godinu.
+Metoda po godini mora filtrirati ispite i izračunati prosjek ispita
+2. Kreirati klasu naziva Mioc koja implementira sučelje iz prošlog zadatka i nasljeđuje Obrazovnu ustanovu.
+Implementirati potrebne metode.
+3. Kreirati klasu Mioc u glavnoj klasi, unositi i ispisivati podatke.
+
+
+
+
+
+
+
+
+
+
+
+
