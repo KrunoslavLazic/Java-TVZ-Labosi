@@ -1,0 +1,30 @@
+2968
+PR5543
+Programiranje u jeziku Java
+6
+1376
+18730 14655 12242 19916 14110 13134
+2359
+PR1425
+Web aplikacije u Javi
+7
+1087
+19916 14110 13134 18929 16844
+2124
+PR6422
+Napredna interoperabilnost u Javi
+5
+1087
+18730 14655 12242 19916 14110 13134 18929 16844
+2708
+PR1255
+Objektno orijentirano programiranje
+6
+1382
+18730 12242 14110 18929 15426
+2271
+PR4778
+Nekonvencionalni računalni postupci
+5
+1430
+13134 12201
