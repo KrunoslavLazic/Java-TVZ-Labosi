@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vjezbe.glavna.MenuController">
+
+
+    <MenuBar layoutX="2.0" layoutY="2.0" prefHeight="25.0" prefWidth="533.0" GridPane.columnSpan="2">
+        <menus>
+            <Menu mnemonicParsing="false" text="Profesor">
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showProfesorSearchScreen" text="Pretraga" />
+                    <MenuItem mnemonicParsing="false" onAction="#showProfesorUnosScreen" text="Unos" />
+                    <MenuItem mnemonicParsing="false" onAction="#showProfesorBrisanjeScreen" text="Brisanje" />
+                    <MenuItem mnemonicParsing="false" onAction="#showProfesorUpdateScreen" text="Update" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Student">
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showStudentSearchScreen" text="Pretraga" />
+                    <MenuItem mnemonicParsing="false" onAction="#showStudentUnosScreen" text="Unos" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Predmet">
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showPredmetSearchScreen" text="Pretraga" />
+                    <MenuItem mnemonicParsing="false" onAction="#showPredmetUnosScreen" text="Unos" />
+                </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Ispit">
+                <items>
+                    <MenuItem mnemonicParsing="false" onAction="#showIspitSearchScreen" text="Pretraga" />
+                    <MenuItem mnemonicParsing="false" onAction="#showIspitUnosScreen" text="Unos" />
+                </items>
+            </Menu>
+        </menus>
+    </MenuBar>
+
+</AnchorPane>
